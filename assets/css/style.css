@@ -301,3 +301,76 @@ footer{
 
 
 }
+
+/* portfolio.html */
+
+#cruel{
+    padding: 20px;
+    background-color:white;
+    border: solid 1px lightgrey;
+    width: 960px;
+    position: fixed;
+    bottom: 150px;
+    left: 260px;
+    height: 480px;
+
+}
+
+
+.all{
+    position: relative;
+    padding: 1px;
+    background: #4aaaa5;
+    color: white;
+    width: 148px;
+    top: -35px;
+    height: 24px;
+    text-align: center;
+
+
+
+}
+
+#pic4{
+
+    position: fixed;
+    bottom: 441px;
+    left: 450px;
+
+}
+ #four{
+     position: relative;
+     bottom: 322px;
+     left: 169px;
+     height: 24px;
+     padding: 1px;
+     background-color: #4aaaa5;
+     color: white;
+     width: 148px;
+     text-align: center;
+
+   
+
+ }
+
+ #pic5{
+
+    position: fixed;
+    bottom: 310px;
+    left: 450px;
+
+ }
+
+ #five{
+
+    position: relative;
+     bottom: 217px;
+     left: 169px;
+     height: 24px;
+     padding: 1px;
+     background-color: #4aaaa5;
+     color: white;
+     width: 148px;
+     text-align: center;
+
+ }
