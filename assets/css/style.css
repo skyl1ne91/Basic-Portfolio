@@ -1,442 +1,310 @@
-/* Index.html  */
-
-
-
-/* Header */
-header{
-    padding:20px;
-    width: 100%;
-    background: white;
-    height:37px;
-    position: fixed;
-    top: -1px;
-    border-bottom: 1px solid lightgrey;
-    left: 1px;
-
+*{
+    box-sizing: border-box;
 }
-/* background image */
+
+
+/* this controls all the pages on their footer and header */
 body{
-
-    background-image: url("C:/Users/juanc/Desktop/homework/Basic-Portfolio/assets/images/funky-lines.png");
-    background-image: repeat;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/eight_horns.png")
 }
-/* the nav bar */
-#name{
-
+header{
+    background: white;
+    padding: 20px;
+    background-color: white;
+    border-bottom: solid 1px lightgrey;
+    height: 83px;
     position: fixed;
-    left: 260px;
-    top: 8px;
-    padding: 22px;
-    text-align: center;
-    background: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:white;
-    margin-top: -8px;
-    width: 25%;
-    height: 32px;
-    font-size: 2em;
+    width: 100%;
+    left: 0px;
+    top: -8px;
+
 }
 
+h1{
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+    margin-left: 200px;
+    padding: 10px;
+    max-width: 380px;
+    width: 100%;
+    background-color: #4aaaa5;
+    height:74px ;
+    overflow: auto;
+    position: fixed;
+    top: -24px;
+    left: 88px;
+
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+h2{
+    font-size: 25px;
+    color: #4aaaa5;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-weight: 700
+
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.1;
+    padding: 5px;
+    margin-left: 2px;
+
+}
+/* this is the links look */
+a{
+
+    text-decoration: none;
+    float: right;
+    margin: 10px;
+    border-right: 1px solid lightgrey;
+
+  
+
+}
+/* this are the links on the top right */
 #about{
 
-    position: fixed;
-    padding:15px;
-    text-align: center;
-    background:white;
-    right:446px;
-    color: #666666;
-    border-right: solid lightgrey;
-
-
-
-}
-
-#Portfolio{
-
-    position: fixed;
-    padding:15px;
-    text-align: center;
-    background:white;
-    right: 357px;
-    color: #666666;
-    border-right: solid lightgrey;
-
-
-    
-}
-
-#contact{
-
-    position: fixed;
-    padding:15px;
-    text-align: center;
-    background:white;
-    right: 275px;
-    color: #666666;
-    border-right: solid lightgrey;
-
-    
-}
-
-/* the body section of the page */
-
-#learn{
-    background: white;
-    border: solid lightgrey;
-    padding:30px;
     position: relative;
-    max-width:960px;
+    top: -10px;
+    right: 396px;
+
+}
+#portfolio{
+    position: relative;
+    top: -10px;
+    right:260px;
+
+}
+#contact{
+    position: relative;
+    top: -10px;
+    right: 115px;
+
+}
+ /* this is for the index body */
+#container{
+
+    max-width: 960px;
     width: 100%;
-    left:260px;
-    top:90px;
-    
-
-
-
+    padding: 10px;
+    background-color: white;
+    border: solid 1px lightgrey;
+    position: fixed;
+    left: 287px;
+    top: 100px;
 
 }
-/* image location */
 #image{
-    float:left;
-    margin-right:10px;
+    float: left;
+    margin-right: 10px;
 
 }
-/* for paragraph tag */
-p{
-    line-height: 1.5;
-    font-size: 1.1em;
-    margin-top: 10px;
-
-    
-
-
-}
-
-/* for h1 tag */
-h1{
-    border-bottom: solid lightgrey;
-    padding: 15px;
-    color:#4aaaa5;
-    font-size: 34px;
-    font-weight: 700;
-
-
-
-}
-/* the footer tag */
+/* this helps control the footer of all pages */
 footer{
 
-    padding:20px;
+    background: white;
+    
+    background-color:#666666;
+    border-top: 10px #4aaaa5 solid;
+    height: 75px;
     position: fixed;
-    width:100%;
-    right:0px;
+    width: 100%;
     text-align: center;
-    border-top: 10px solid #4aaaa5;
-    bottom:0px;
-    background:#666666;
-    color:white;
+    bottom: 0px;
+    color: white;
+    left: 0px;
+    
+
 }
 
-/* contact.html */
+#foot{
 
-
-/* the nav bar area */
-#name1{
-    
-
-  
-    position: fixed;
-    left: 260px;
-    top: 8px;
-    padding: 22px;
-    text-align: center;
-    background: #4aaaa5;
-    font-size: 2em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:white;
-    margin-top: -8px;
-    width: 25%;
-    height: 32px;
-
-    
-    
-}
-#About1{
-
-    position: fixed;
-    padding:15px;
-    text-align: center;
-    background:white;
-    right:446px;
-    color: #666666;
-    border-right: solid lightgrey;
-      
-  
-
-
+    position: relative;
+    bottom: -24px;
+    font-size: 15px;
 
 
 }
 
-#portfolio1{
 
-    position: fixed;
-    padding:15px;
-    text-align: center;
-    background:white;
-    right: 357px;
-    color: #666666;
-    border-right: solid lightgrey;
-    
+/* contact.html page starts here */
 
 
-    
-}
+#containerform{
 
-#contact1{
-
-    position: fixed;
-    padding:15px;
-    text-align: center;
-    background:white;
-    right: 275px;
-    color: #666666;
-    border-right: solid lightgrey;
-}
-
-
-/* the body section */
-#clean{
-
-    padding: 20px;
-    background-color:white;
+    max-width: 960px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
     border: solid 1px lightgrey;
-    width: 960px;
     position: fixed;
-    bottom: 144px;
-    left: 260px;
-    height: 480px;
+    left: 287px;
+    top: 100px;
+    height:530px;
 
 
 
 }
-
-#top{
-
-    padding: 10px;
+input[type=submit]{
+    background: #4aaaa5;
+    color: white;
+    width: 70px;
+    height: 25px;
     position: relative;
-    top: -20px;
+    top: 10px;
 
-}
-
-#mid{
-
-    padding: 10px;
-    position: relative;
-    top: -20px;
-    color:#777777;
     
 
-
-
-
 }
+input[type=text]{
 
-#midi{
-
-    padding: 7px;
-    border: 1px solid lightgrey;
-    position: relative;
-    top: -10px;
-    margin-top: 15px;
-
-
-}
-
-#mid2{
-
+    display: inline-block;
+    width: 100%;
     padding: 10px;
-    position: relative;
-    top: -50px;
-    color: #777777;
     margin-top: 10px;
 
 
+}
+#message{
+    height: 200px;
+    margin-top: 10px;
 
 }
 
-#mid2i{
-
-    padding: 7px;
-    border: 1px solid lightgrey;
+label{
     position: relative;
-    top: -10px;
+    top: 5px;
 
 
 }
 
-#bottom{
 
+/* portfolio.html starts here*/
+
+
+#containerport{
+
+    max-width: 960px;
+    width: 100%;
     padding: 10px;
-    position: relative;
-    top: -80px;
-    color: #777777;
-    margin-top: 6px;
-
-}
-
-#bottomi{
-
-    padding: 10px;
+    background-color: white;
     border: solid 1px lightgrey;
-    height: 100px;
-
-
+    position: fixed;
+    left: 287px;
+    top: 100px;
+    height:500px;
 }
 
-#last{
-
-    padding: 5px;
-    height:20px;
-    width: 80px;
-    background-color: #4aaaa5;
-    position: relative;
-    top: -90px;
-    left: 10px;
-    border: solid lightgrey 1px;
-    margin-top: 8px;
-
-
-
-
-}
-
-#last1{
-    position: relative;
-    bottom: 20px;
-    left: 15px;
+#onei{
+    padding: 10px;
+    background: #4aaaa5;
     color: white;
-    margin-top: 17px;
-
-
-
-
-}
-
-/* portfolio.html */
-
-#cruel{
-    padding: 20px;
-    background-color:white;
-    border: solid 1px lightgrey;
-    width: 960px;
-    position: fixed;
-    bottom: 144px;
-    left: 260px;
-    height: 480px;
-
-}
-#pic1{
-    position: fixed;
-    top: 200px;
-
-
-}
-#one{
-     
     position: relative;
-     bottom: -80px;
-     left: 0px;
-     height: 24px;
-     padding: 1px;
-     background-color: #4aaaa5;
-     color: white;
-     width: 148px;
-     text-align: center;
-}
+    top: -56px;
+    left: -2px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
 
-
-#pic2{
-
-    position: fixed;
-    bottom: 355px;
 
 }
+#twoi{
+    padding: 10px;
+    background: #4aaaa5;
+    color: white;
+    position: relative;
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    top: -106px;
+    left: -2px;
+
+}
+#threei{
+    padding: 10px;
+    background: #4aaaa5;
+    color: white;
+    position: relative;
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    top: -156px;
+    left: -2px;
+
+
+}
+#fouri{
+    padding: 10px;
+    background: #4aaaa5;
+    color: white;
+    position: relative;
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    top:-434px;
+    left: 170px;
+}
+#fivei{
+    padding: 10px;
+    background: #4aaaa5;
+    color: white;
+    position: relative;
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    top: -364px;
+    left: 170px;
+
+
+}
+
+#one{
+
+    position: relative;
+
+}
+
 #two{
 
     position: relative;
-     bottom: -172px;
-     left: 0px;
-     height: 24px;
-     padding: 1px;
-     background-color: #4aaaa5;
-     color: white;
-     width: 148px;
-     text-align: center;
+    top: -50px;
 
-}
 
-#pic3{
-
-    position: fixed;
-    left: 281px;
-    bottom: 238px;
 }
 
 #three{
 
-     position: relative;
-     top: 263px;
-     left: 0px;
-     height: 24px;
-     padding: 1px;
-     background-color: #4aaaa5;
-     color: white;
-     width: 148px;
-     text-align: center;
-
-}
-
-#pic4{
-
-    position: fixed;
-    top: 200px;
-    left: 450px;
-
-}
- #four{
-     position: relative;
-     top: 2px;
-     left: 169px;
-     height: 24px;
-     padding: 1px;
-     background-color: #4aaaa5;
-     color: white;
-     width: 148px;
-     text-align: center;
-
-   
-
- }
-
- #pic5{
-
-    position: fixed;
-    bottom: 355px;
-    left: 450px;
-
- }
-
- #five{
-
     position: relative;
-     top: 94px;
-     left: 169px;
-     height: 24px;
-     padding: 1px;
-     background-color: #4aaaa5;
-     color: white;
-     width: 148px;
-     text-align: center;
+    top: -100px;
 
- }
+
+}
+
+#four{
+
+    position: fixed;
+    bottom: 462px;
+    left: 470px;
+
+
+
+}
+
+#five{
+
+    position: fixed;
+    bottom: 345px;
+    left: 470px;
+
+
+
+}
